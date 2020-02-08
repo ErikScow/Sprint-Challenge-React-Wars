@@ -6,10 +6,7 @@ const Container = styled.div`
     width: 90%;
     margin: 0 auto;
 `
-const Card = styled.div`
-    background: rgba (200,200,200,0.4);
-    border-radius: 20px;
-`
+
 
 const CharacterCards = (props) => {
     const { characters } = props
